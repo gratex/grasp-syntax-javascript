@@ -33,6 +33,8 @@
     "test": "mocha"
   },
   "main": "./index.js",
-  "exports": "./index.js",
+  "exports": {
+    ".": "./index.js"
+  },
   "type": "module"
 }
