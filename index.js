@@ -619,20 +619,6 @@ const eitherAttributes = intersection(primitiveAttributes, nonPrimitiveAttribute
 const primitiveOnlyAttributes = difference(primitiveAttributes, nonPrimitiveAttributes);
 
 // Export all the data
-export {
-  syntax,
-  syntaxFlat,
-  complexTypeMap,
-  aliasMap,
-  matchesMap,
-  matchesAliasMap,
-  literalMap,
-  attrMap,
-  attrMapInverse,
-  primitiveOnlyAttributes,
-  eitherAttributes
-};
-
 export default {
   syntax,
   syntaxFlat,
